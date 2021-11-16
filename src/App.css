@@ -2,16 +2,22 @@
   color: #61dafb;
 }
 
+body {
+  background-color: rgb(36, 35, 35);
+  color: white;
+  font-weight: lighter;
+}
 
 .navbar-items {
-  background: linear-gradient(90deg,#1404f3, 0%, #081be4, 100%);
+  background: linear-gradient(90deg, #1404f3, 0%, #081be4, 100%);
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
+  padding: 20px;
 }
 
 li {
-  list-style-type:none;
+  list-style-type: none;
 }
