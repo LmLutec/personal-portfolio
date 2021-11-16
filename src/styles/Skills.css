@@ -1,0 +1,9 @@
+.skillList {
+  padding-left: 10px;
+}
+
+.skill {
+  border-bottom: 1px solid white;
+  width: 100px;
+  padding: 5px;
+}
