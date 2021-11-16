@@ -1,10 +1,14 @@
 .skillList {
   padding-left: 250px;
-  padding-right: 10px;
+  padding-right: 25px;
 }
 
 .skill {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(7, 152, 196);
   width: 100px;
   padding: 5px;
+}
+
+.skill:hover {
+  font-size: 28px;
 }
