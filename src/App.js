@@ -8,7 +8,8 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <h1>Lauren's New Website</h1>
+        <h1>Lauren Mccoy</h1>
+
         <div className="contacts">
           <a
             href="https://www.linkedin.com/in/laurenmccoydev/"
