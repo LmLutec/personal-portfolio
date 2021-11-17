@@ -1,3 +1,13 @@
+.intro {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -6,6 +16,17 @@ body {
   background-color: rgb(36, 35, 35);
   color: white;
   font-weight: lighter;
+}
+
+.contact {
+  padding: 5px;
+  color: rgb(7, 152, 196);
+  text-decoration: none;
+}
+
+.contacts {
+  display: flex;
+  /* flex-direction: column; */
 }
 
 .navbar-items {

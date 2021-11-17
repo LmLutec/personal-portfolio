@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-
-import "./styles/Home.css";
+import "../styles/Home.css";
 
 const Home = () => {
   const [bio, setBio] = useState(
