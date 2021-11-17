@@ -20,6 +20,13 @@ body {
 
 .contact {
   padding: 5px;
+  color: rgb(7, 152, 196);
+  text-decoration: none;
+}
+
+.contacts {
+  display: flex;
+  /* flex-direction: column; */
 }
 
 .navbar-items {

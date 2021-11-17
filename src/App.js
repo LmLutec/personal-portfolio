@@ -12,17 +12,13 @@ function App() {
         <div className="contacts">
           <a
             href="https://www.linkedin.com/in/laurenmccoydev/"
-            className="contact"
+            class="contact"
             target="_blank"
           >
-            <img src="./images/linkedin-logo.png" alt="linkedin" />
+            <h4 className="contact">LinkedIn</h4>
           </a>
-          <a
-            href="https://github.com/LmLutec"
-            className="contact"
-            target="_blank"
-          >
-            <img src="./images/github-logo.png" alt="Github" />
+          <a href="https://github.com/LmLutec" class="contact" target="_blank">
+            <h4 className="contact">Github</h4>
           </a>
         </div>
       </div>
