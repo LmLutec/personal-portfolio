@@ -29,7 +29,7 @@ const Projects = () => {
       <div className="projectsContainer">
         {projects.map((p) => (
           <div className="project">
-            <h5>{p.title} </h5>
+            <h3>{p.title} </h3>
             {p.description} <br /> <br />
             <i>Technologies used: {p.skillset}</i>
           </div>
