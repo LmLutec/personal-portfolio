@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Home.css";
+import profpic from "../images/professionalpic.jpg";
 
 const Home = () => {
   const [bio, setBio] = useState(
@@ -7,10 +8,14 @@ const Home = () => {
   );
 
   return (
-    <div>
+    <div className="home">
+      <img src={profpic} style={{ width: "220px", height: "300px" }} />
+
       <div className="bio"> {bio} </div>
     </div>
   );
 };
 
 export default Home;
+
+// src/images/professionalpic.jpg
