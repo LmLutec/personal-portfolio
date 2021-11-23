@@ -25,7 +25,7 @@ const Projects = () => {
 
   return (
     <div>
-      <h3>Projects</h3>
+      <h3 style={{ textAlign: "center" }}>PROJECTS</h3>
       <div className="projectsContainer">
         {projects.map((p) => (
           <div className="project">
